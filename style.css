@@ -1,0 +1,105 @@
+body{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background: #1d1b1b;
+
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+    border-radius: 10px;
+    width:750px;
+    margin-top:30px;
+    margin-left:300px;
+    margin-bottom:50px;
+    background: #1d1b1b;
+  border: 5px solid #1d1b1b;
+  box-shadow: 6px 6px 12px #4d4545, -6px -6px 12px #ffffff;
+}
+.heading h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+    line-height: 15px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: wheat;
+    
+}
+.top-section .item{
+    display: flex;
+    width: 20%;
+    margin: 0px 20px;
+}
+.top-section .item button{
+    margin:5px;
+    height: 50px;
+    min-width: 70px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+}
+.top-section .item h3{
+    font-weight: 1000;
+    font-size: 20px;
+    color: #00008B;
+}
+
+#btn-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    justify-content:center;
+    align-items:center;
+    height: 360px;
+    width: 100%;
+    border-radius:0px 0px 10px 10px;
+    background-color: white;
+    overflow: hidden;
+}
+#bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:blueviolet;
+    margin:5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    background-color: goldenrod;
+    background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    
+}
+#bubble:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color:white;
+
+}
+
+#btn-section h1{
+    font-size:50px;
+    color:green;
+    cursor: pointer;
+}
